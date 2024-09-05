@@ -6,6 +6,10 @@ body {
     margin: 88px 80px;
 }
 
+h1, h2, h3 {
+    color: #1B1B1B;
+}
+
 .headline {
     color:#E1624F;
     font-size: 16px;
@@ -44,7 +48,7 @@ body {
     margin: 8px 0;
 }
 
-#contentList p {
+#descriptionMalta {
     color: #333333;
     margin: 0px;
 }
@@ -55,4 +59,13 @@ body {
     object-fit: cover;
     border-radius: 28px;
     margin: 64px 0 20px 0;
+}
+
+#contentList ol {
+    margin-top: 0;
+}
+
+#contentList h3 {
+    font-size: 28px;
+    margin-top: 0;
 }
