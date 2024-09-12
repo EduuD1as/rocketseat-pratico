@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans";
-  margin: 88px 80px;
+  margin: 88px 80px 48px 80px;
 }
 
 h1,
@@ -11,9 +11,11 @@ h3 {
 
 ol {
   padding: 0;
+  margin: 0;
 }
 
-.headline {
+#headline {
+  margin-top: 0;
   color: #e1624f;
   font-size: 16px;
   font-weight: bold;
@@ -35,11 +37,17 @@ ol {
   color: #333333;
   text-align: center;
   font-style: italic;
-  padding-bottom: 40px;
 }
 
-#descriptionImage {
-  border-bottom: 1px solid #d9d9d9;
+#hr1 {
+  margin: 40px 0 0 0;
+  background-color:  #d9d9d9;
+  border: 0;
+  height: 1px;
+}
+
+#titleList {
+  margin: 64px 0;
 }
 
 #titleList h2 {
@@ -52,12 +60,12 @@ ol {
   margin: 0px;
 }
 
-#lista img {
+#poppeyeVillageImg {
   width: 100%;
   height: 350px;
   object-fit: cover;
   border-radius: 28px;
-  margin: 64px 0 20px 0;
+  margin: 0 0 20px 0;
 }
 
 #lista h3 {
@@ -65,20 +73,22 @@ ol {
   margin: 0 0 8px 0;
 }
 
-#h3poppeyeVillage {
+#liPoppeyeVillage {
   font-size: 28px;
   font-weight: bold;
   color: #1b1b1b;
 }
 
-#poppeyeVillage {
-  font-size: 16px;
-  font-weight: normal;
-  margin-left: 0;
+#liPoppeyeVillage h3 {
+  margin-bottom: 4px;
 }
 
-#lista li {
-  margin-left: 32px;
+#descPoppeyeVillage {
+  font-size: 16px;
+  font-weight: normal;
+  color: #333333; 
+  margin-top: 0;
+  margin-left: 0;
 }
 
 #lista ul {
@@ -88,4 +98,101 @@ ol {
 
 #lista h4 {
   margin-bottom: 4px;
-}   
+}
+
+#lista li {
+  margin-left: 32px;
+  
+}
+
+#lista ul li::marker {
+  color: #333333;
+} 
+
+#historia {
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+#blueGrottoImg {
+  margin: 48px 0px 20px 0px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 28px;
+}
+
+#liBlueGrotto {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1b1b1b;
+}
+
+#descBlueGrotto {
+  margin-top: 0;
+  color: #333333; 
+}
+
+#h3BlueGrotto {
+  margin-bottom: 16px;
+}
+
+#liBlueGrotto h3 {
+  margin-bottom: 4px;
+}
+
+#aventura {
+  font-weight: bold;
+  color: #E95E10;
+}
+
+#imgValettaMalta {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 28px;
+  margin: 48px 0px 20px 0px;
+}
+
+#liValetta {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1b1b1b;
+}
+
+#liValetta h3 {
+  margin-bottom: 4px;
+}
+
+#descValetta {
+  margin-top: 0;
+  color: #333333; 
+}
+
+#casais {
+  color: #591B98;
+  font-weight: bold;
+}
+
+#cultura {
+  color: #32CD32;
+  font-weight: bold;
+}
+
+#hr2 {
+  margin: 40px 0;
+  background-color:  #d9d9d9;
+  border: 0;
+  height: 1px;
+}
+
+#pFinal {
+  text-align: center;
+  margin: 0 0 65px 0;
+  color: #333333;  
+}
+
+footer {
+  text-align: center;
+}
+
